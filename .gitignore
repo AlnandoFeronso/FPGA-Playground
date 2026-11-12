@@ -1,0 +1,36 @@
+# Quartus build output and databases
+db/
+incremental_db/
+qdb/
+tmp-clearbox/
+output_files/
+greybox_tmp/
+*.rpt
+*.summary
+*.smsg
+*.done
+*.jdi
+*.pin
+*.sld
+*.sof
+*.pof
+*.qws
+*.qarlog
+*.qar
+*_assignment_defaults.qdf
+c5_pin_model_dump.txt
+
+# Simulation output
+sim/*.vvp
+sim/*.vcd
+*.fst
+
+# Verilator
+obj_dir/
+
+# Editor / OS junk
+*~
+*.swp
+.vscode/
+.idea/
+.DS_Store
